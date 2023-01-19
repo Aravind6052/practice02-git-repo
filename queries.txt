@@ -1,1 +1,6 @@
 select * from employees where empsal between 20000 and 45000 ;
+select * from employees where empname like "T%";
+select * from employee where deptloc="ch";
+select * flom employee where deptloc in ('Chennai','hyderabad');
+select * from employee where emploc not in ('Chennai','Hyderabad');
+
